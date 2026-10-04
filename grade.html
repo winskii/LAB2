@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Tells the browser that this document uses HTML5 -->
+
+<html lang="en">
+<!-- Starts the HTML document and sets the language to English -->
+
+<head>
+    <!-- Contains information about the webpage -->
+
+    <meta charset="UTF-8">
+    <!-- Allows the webpage to display different characters correctly -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the webpage responsive on phones, tablets, and computers -->
+
+    <title>Student Score Evaluation</title>
+    <!-- Sets the title shown on the browser tab -->
+
+    <link rel="stylesheet" href="grade.css">
+    <!-- Connects the HTML file to the CSS file -->
+</head>
+
+<body>
+    <!-- Contains everything that will be displayed on the webpage -->
+
+    <div class="container">
+        <!-- Creates the main container of the webpage -->
+
+        <h1>Student Score Evaluation</h1>
+        <!-- Displays the main title -->
+
+        <p>
+            Enter your information and let the system evaluate your score.
+        </p>
+        <!-- Displays a short description of the program -->
+
+        <div id="result">
+            <!-- Creates an area where the final result will be displayed -->
+
+            <p>Welcome</p>
+            <!-- Displays an initial message before the JavaScript runs -->
+        </div>
+        <!-- Ends the result area -->
+
+        <button onclick="startProgram()">
+            Start Evaluation
+        </button>
+        <!-- Creates a button that starts the JavaScript program -->
+    </div>
+    <!-- Ends the main container -->
+
+    <script src="grade.js"></script>
+    <!-- Connects the HTML file to the JavaScript file -->
+
+</body>
+<!-- Ends the body section -->
+
+</html>
+<!-- Ends the HTML document -->

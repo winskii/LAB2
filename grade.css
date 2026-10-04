@@ -1,0 +1,140 @@
+/* Applies styles to the entire webpage */
+body {
+    /* Removes the default margin around the webpage */
+    margin: 0;
+
+    /* Sets the font used by the webpage */
+    font-family: Arial, sans-serif;
+
+    /* Sets the background color of the webpage */
+    background-color: #f2f6fc;
+
+    /* Uses flexbox to position the container */
+    display: flex;
+
+    /* Centers the container horizontally */
+    justify-content: center;
+
+    /* Centers the container vertically */
+    align-items: center;
+
+    /* Makes the body fill the screen height */
+    min-height: 100vh;
+}
+
+/* Styles the main container */
+.container {
+    /* Sets the width of the container */
+    width: 90%;
+
+    /* Prevents the container from becoming too wide */
+    max-width: 500px;
+
+    /* Adds space inside the container */
+    padding: 30px;
+
+    /* Sets the background color */
+    background-color: white;
+
+    /* Makes the corners rounded */
+    border-radius: 15px;
+
+    /* Adds a shadow around the container */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+    /* Centers the text */
+    text-align: center;
+}
+
+/* Styles the main heading */
+h1 {
+    /* Sets the heading color */
+    color: #1d3557;
+
+    /* Adds space below the heading */
+    margin-bottom: 10px;
+}
+
+/* Styles the paragraph */
+p {
+    /* Sets the paragraph color */
+    color: #555;
+
+    /* Sets the line spacing */
+    line-height: 1.6;
+}
+
+/* Styles the result box */
+#result {
+    /* Adds space above and below the result */
+    margin: 25px 0;
+
+    /* Adds space inside the result box */
+    padding: 20px;
+
+    /* Sets the background color */
+    background-color: #f8f9fa;
+
+    /* Adds a border around the result */
+    border: 1px solid #ddd;
+
+    /* Rounds the corners */
+    border-radius: 10px;
+}
+
+/* Styles the button */
+button {
+    /* Adds space inside the button */
+    padding: 12px 25px;
+
+    /* Removes the default border */
+    border: none;
+
+    /* Rounds the button corners */
+    border-radius: 8px;
+
+    /* Sets the background color */
+    background-color: #1d3557;
+
+    /* Sets the text color */
+    color: white;
+
+    /* Changes the mouse cursor when hovering */
+    cursor: pointer;
+
+    /* Sets the font size */
+    font-size: 16px;
+}
+
+/* Changes the button appearance when the mouse is over it */
+button:hover {
+    /* Makes the button slightly darker */
+    background-color: #457b9d;
+}
+
+/* Styles the successful result */
+.success {
+    /* Sets the success text color */
+    color: green;
+
+    /* Makes the text bold */
+    font-weight: bold;
+}
+
+/* Styles the failed result */
+.failed {
+    /* Sets the failed text color */
+    color: red;
+
+    /* Makes the text bold */
+    font-weight: bold;
+}
+
+/* Styles invalid input */
+.invalid {
+    /* Sets the invalid text color */
+    color: orange;
+
+    /* Makes the text bold */
+    font-weight: bold;
+}
